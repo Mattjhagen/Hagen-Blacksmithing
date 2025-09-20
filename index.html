@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hagen Blacksmithing - Handcrafted Ironwork & Custom Forging</title>
+    <meta name="description" content="Professional blacksmithing services specializing in custom ironwork, decorative pieces, and traditional forging techniques. Handcrafted quality since [year].">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Hagen Blacksmithing</h1>
+                    <span class="tagline">Handcrafted Excellence</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#press" class="nav-link">Press</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#cart" class="nav-link cart-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">North Dakota's Master Blacksmith</h1>
+            <p class="hero-subtitle">Featured in local media and recognized as part of North Dakota's cultural heritage. Creating timeless ironwork with traditional techniques and modern craftsmanship.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">View Our Work</a>
+                <a href="#contact" class="btn btn-secondary">Get Custom Quote</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="503820886_10161155977462344_4036553592053670956_n.jpg" alt="Blacksmith at work" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Handcrafted Products</h2>
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="tools">Tools</button>
+                <button class="category-btn" data-category="decorative">Decorative</button>
+                <button class="category-btn" data-category="custom">Custom Work</button>
+            </div>
+            
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Hagen Blacksmithing</h2>
+                    <p>Featured in local North Dakota media including Agweek and Minot Daily News, Hagen Blacksmithing has been creating exceptional ironwork that combines timeless craftsmanship with modern functionality. Each piece is hand-forged using time-honored methods passed down through generations.</p>
+                    <p>As part of North Dakota's North Central Region art and cultural destinations, our workshop specializes in custom ironwork, decorative pieces, and functional tools. Whether you need a unique garden gate, custom fireplace tools, or a one-of-a-kind decorative piece, we bring your vision to life with uncompromising quality.</p>
+                    <p>Our work has been recognized for its creative excellence and contribution to preserving traditional blacksmithing techniques in the local community.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-hammer"></i>
+                            <h3>Traditional Techniques</h3>
+                            <p>Time-honored forging methods</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-palette"></i>
+                            <h3>Custom Design</h3>
+                            <p>Bespoke pieces tailored to your needs</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <h3>Quality Guarantee</h3>
+                            <p>Lifetime craftsmanship warranty</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="503951734_10161155976827344_3081178706830117618_n.jpg" alt="Blacksmith workshop" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press & Testimonials Section -->
+    <section id="press" class="press">
+        <div class="container">
+            <h2 class="section-title">Featured in Local Media</h2>
+            <div class="press-content">
+                <div class="press-item">
+                    <div class="press-logo">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="press-info">
+                        <h3>Agweek</h3>
+                        <p>"North Dakota teen girl finds creative outlet in blacksmithing"</p>
+                        <span class="press-date">Featured Article</span>
+                    </div>
+                </div>
+                <div class="press-item">
+                    <div class="press-logo">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="press-info">
+                        <h3>Minot Daily News</h3>
+                        <p>"Prairie Village expands efforts to showcase history"</p>
+                        <span class="press-date">Community Feature</span>
+                    </div>
+                </div>
+                <div class="press-item">
+                    <div class="press-logo">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="press-info">
+                        <h3>North Central Region</h3>
+                        <p>Featured in Guide to ND Art and Cultural Destinations</p>
+                        <span class="press-date">Cultural Destination</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What People Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The quality of work is exceptional. Each piece tells a story of traditional craftsmanship that's becoming rare in today's world."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Local Customer</strong>
+                        <span>North Dakota</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Hagen Blacksmithing has been instrumental in preserving our local heritage and teaching the next generation traditional skills."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Community Member</strong>
+                        <span>Prairie Village</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The custom work exceeded our expectations. The attention to detail and commitment to quality is unmatched."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Business Owner</strong>
+                        <span>Minot Area</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone: (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: info@hagenblacksmithing.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Address: North Dakota, USA</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Hours: Mon-Fri 8AM-6PM, Sat 9AM-4PM</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="custom">Custom Work</option>
+                            <option value="repair">Repair Service</option>
+                            <option value="quote">General Quote</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <strong>Total: $<span id="cart-total">0.00</span></strong>
+                </div>
+                <button class="btn btn-primary checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hagen Blacksmithing</h3>
+                    <p>Creating exceptional ironwork with traditional craftsmanship and modern quality.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Custom Ironwork</a></li>
+                        <li><a href="#">Decorative Pieces</a></li>
+                        <li><a href="#">Tool Making</a></li>
+                        <li><a href="#">Repair Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@hagenblacksmithing.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> North Dakota, USA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hagen Blacksmithing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
